@@ -20,11 +20,7 @@ body {
   padding: 0px 8px;
 }
 
-.left-side {
-  display: flex;
-  align-items: center;
-}
-
+.left-side,
 .right-side {
   display: flex;
   align-items: center;
