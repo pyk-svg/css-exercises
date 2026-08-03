@@ -3,8 +3,47 @@
 body {
   height: 100vh;
   margin: 0;
+  padding: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul { list-style: none; }
+a { text-decoration: none; color: inherit; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  color: #7a7a7a;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: #eee;
+  color: #7a7a7a;
 }
 
 img {
@@ -16,6 +55,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
